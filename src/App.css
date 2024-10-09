@@ -1,8 +1,110 @@
 .App {
   text-align: center;
+  color: rgb(168, 163, 163);
+}
+.navbar {
+  background-color: #000000;
+  padding: 1rem;
 }
 
-.App-logo {
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color:rgb(168, 163, 163);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.home {
+  text-align: left;
+  padding: 100px;
+  background-color: #0B192C;
+}
+
+.home h1 {
+  
+  font-size: 3rem;
+  
+}
+
+.home p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.about {
+  padding: 100px;
+  background-color: #1E3E62;
+  text-align: left;
+}
+
+.about h2 {
+  font-size: 2rem;
+  
+}
+
+.about p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.projects {
+  padding: 50px;
+  background-color: #1E3E62;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project {
+  background-color: #000000;
+  padding: 20px;
+  width: 45%;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.project h3 {
+  margin-bottom: 1rem;
+}
+.contact {
+  padding: 50px;
+  background-color:#1E3E62;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #000000;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #000000;
+  color: gray;
+}
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +137,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
